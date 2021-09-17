@@ -8,4 +8,4 @@ Para hacer uso de este programa de análisis de datos, se debe hacer lo siguient
 3. Da click en "Run" y el programa debería mostrar las gráficas de Codo de Jambú y el análisis con K-Means de los datos seleccionados.
 
 # Reporte del análisis
-![me](https://imgur.com/a/QJ290a9)
+![me](https://github.com/Yony55/kmeans-analysis/blob/master/Capture1.PNG)
