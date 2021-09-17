@@ -55,3 +55,26 @@ plt.title("Tipo de Empleado vs Salario Diario")
 plt.xlabel("Tipo de Empleado")
 plt.ylabel("Salario Diario")
 plt.show()
+
+# Grafica 3
+kmeans= KMeans(n_clusters=2, max_iter=300).fit(dt2)
+centroids1 = kmeans.cluster_centers_
+#print(centroids1)
+
+plt.scatter (dt2['Condición Médica'], dt2['Edad'], c=kmeans.labels_.astype(float), s=50, alpha= 0.5)
+plt.scatter(centroids1[:,0], centroids1[:,1], c='red', s=50)
+plt.title("Condición Médica vs Edad")
+plt.xlabel("Condición Médica")
+plt.ylabel("Edad")
+plt.show()
+
+kmeans= KMeans(n_clusters=2, max_iter=300).fit(dt3)
+centroids2 = kmeans.cluster_centers_
+#print(centroids1)
+
+plt.scatter (dt3['Antig'], dt3['Salario Diario'], c=kmeans.labels_.astype(float), s=50, alpha= 0.5)
+plt.scatter(centroids2[:,0], centroids2[:,1], c='red', s=50)
+plt.title("Antiguedad vs Salario Diario")
+plt.xlabel("Antiguedad")
+plt.ylabel("Salario Diario")
+plt.show()
