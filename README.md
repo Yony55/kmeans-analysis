@@ -40,7 +40,7 @@ Con la graficación de estos datos, nos dimos cuenta que dependiendo del tipo de
 
 Con este segundo análisis, vimos la tendencia que hay en la gente mayor a tener algunas de las enfermedades mostradas en las tablas. A partir de los 40 años, las personas son más propensas tener enfermedades como diabetes e hipertensión. Mientras que en gente más joven, lo mas común es que presenten algún embarazo
 
-### Segundo Análisis
+### Tercer Análisis
 ![me](https://github.com/Yony55/kmeans-analysis/blob/master/images/jambu3.PNG)
 ![me](https://github.com/Yony55/kmeans-analysis/blob/master/images/cl3.PNG)
 
